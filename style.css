@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center
+}
+
+#title {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    padding-top: 50px;
+}
+
+#bloque {
+    display: flex;
+        
+}
+
+#encabezado { 
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    font-family: 5px;
+    margin-top: 50px;
+    margin-block-end: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid lightgray;
+    
+}
+
+#listaDeTareas{
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+#todasLasTareas {
+    display: flex;
+    padding-bottom: 15px;
+    margin-top: 10px;
+
+}
+#tareasActivas {
+    padding-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+#tareasCompletadas {
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+.option.active {
+    border-bottom: 4px solid rgb(47, 128, 237);
+
+}
+
+
+#addDetails {
+    padding: 7px 20px ;
+    border-radius: 5px;
+    content: 100px;
+}
+
+#botonBorrarTodo {
+    display: flex;
+    flex-direction: row-reverse;
+      
+}
+#BorrarTodo:hover {
+   cursor: pointer;
+         
+}
+
+.boton-borrar-todo {
+    background-color:rgb(193, 10, 10);
+     border-radius:4px;
+     /* display:none;       */
+ }
+
+
+.tasks {
+display: flex;
+justify-content: space-between;
+}
+
+.tasks button {
+    border: none;
+    background-color: white;
+
+}
+
+.tasks i {
+color:grey;
+}
+
+.tasks i:hover {
+   cursor: pointer;
+    }
+
+.contenedor-add{
+    display: flex;
+    
+}
+
+.contenedor-add input{
+    margin-right: 15px;
+}
+
+    
